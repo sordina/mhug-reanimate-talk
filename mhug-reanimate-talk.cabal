@@ -1,0 +1,31 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.33.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: eaa40f641082c26fef48c90218141d635eafc873ce8aad4c3277597115e2bfa1
+
+name:           mhug-reanimate-talk
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/mhug-reanimate-talk#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2020 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable mhug-reanimate-talk
+  main-is: Main.hs
+  other-modules:
+      Paths_mhug_reanimate_talk
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , reanimate
+  default-language: Haskell2010
